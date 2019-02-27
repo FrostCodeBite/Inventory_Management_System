@@ -1,0 +1,16 @@
+{
+  "Products": {
+    "50UK6500PTC": {
+      "ProductName": "50 Inches UHD 4K TV",
+      "Category": "Television",
+      "Quantity": "20",
+      "Price": "500"
+    },
+    "OLED77W8PTA": {
+      "ProductName": "77 Inches SIGNATURE OLED 4K TV",
+      "Category": "Television",
+      "Quantity": "11",
+      "Price": "650"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Inventory_Management_System</string>
+    <string name="title_activity_show_product">ActivityShowProduct</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_add_products">AddProductActivity</string>
+    <string name="title_activity_delete_products">DeleteProductActivity</string>
+    <string name="title_activity_update_products">UpdateProductActivity</string>
+</resources>

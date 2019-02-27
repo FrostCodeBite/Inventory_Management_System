@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context="com.example.user.inventory_management_system.MainActivity">
+
+    <TextView
+        android:text="VIEW PRODUCTS"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/britannic_t_bold"
+        android:textColor="@color/colorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textColor="@color/colorText"
+            android:gravity="left"
+            android:text="CATEGORIES" />
+
+        <Spinner
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <de.codecrafters.tableview.TableView
+        android:id="@+id/tableView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></de.codecrafters.tableview.TableView>
+
+</LinearLayout>
